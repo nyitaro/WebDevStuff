@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <head>
+    <title>goParks</title>
+    <link rel="stylesheet" type="text/css" href="goParksStyleSheet.css" </link>
+  </head>
+
+  <div class="bannerNlogo">
+    <img src="img/logo.png" alt="goParks logo and Slogan" />
+    <img id="banner" src="img/ban.png" alt="goParks logo and Slogan" />
+    <br> </br>
+
+    <form id="searchbar" style="float:left">
+      <input type="text" placeholder="Search goParks" required>
+      <input type="button" value="goPark!">
+    </form>
+
+    <ul class="navbar">
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+  </div>
+  <br></br>
+
+  <div class="searchResults">
+    <span id="advSearch">
+      <input type="radio" class="advanceSearch" id="rating-input-1-5" name="rating-input-1">Nearest</input>
+      <input type="radio" class="rating-input" id="rating-input-1-4" name="rating-input-1">Highest Rated</input>
+      <input type="radio" class="rating-input" id="rating-input-1-3" name="rating-input-1">Greenest</input>
+    </span>
+    <ul id="SearchResultsContents">
+      <li><a href="#Hyde Park">Hyde Park<img id="cafeThumbnail" src="img/cafe.png" alt="Cafe"</img><img id="gymThumbnail" src="img/gym.png" alt="Gym"</img></a></li>
+      <li><a href="#Green Park">Green Park<img id="parkingThumbnail" src="img/parking.png" alt="Parking"</img></a></li>
+      <li><a href="#Regent's Park">Regent's Park<img id="cafeThumbnail" src="img/cafe.png" alt="Cafe"</img><img id="gymThumbnail" src="img/parking.png" alt="Gym"</img></a></li>
+      <li><a href="#Enfield Park">Enfield Park<img id="cafeThumbnail" src="img/cafe.png" alt="Cafe"</img><img id="gymThumbnail" src="img/gym.png" alt="Gym"</img><img id="parkingThumbnail" src="img/parking.png" alt="Parking"</img></a></li>
+      <li><a href="#Richmond Park">Richmond Park<img id="cafeThumbnail" src="img/cafe.png" alt="Cafe"</img></a></li>
+      <li><a href="#Golder's gate Park">Golder's gate Park<img id="gymThumbnail" src="img/gym.png" alt="Gym"</img></a></li>
+      <li><a href="#Limehouse Park">Limehouse Par<img id="cafeThumbnail" src="img/cafe.png" alt="Cafe"</img><img id="gymThumbnail" src="img/gym.png" alt="Gym"</img></a></li>
+      <li><a href="#Hatfield Park">Hatfield Park<img id="gymThumbnail" src="img/gym.png" alt="Gym"</img><img id="parkingThumbnail" src="img/parking.png" alt="Parking"</img></a></li>
+      <li><a href="#St Alban Park">St Alban Par<img id="gymThumbnail" src="img/gym.png" alt="Gym"</img></a></li>
+      <li><a href="#London Colney Park">London Colney Park<img id="gymThumbnail" src="img/gym.png" alt="Gym"</img></a></li>
+    </ul>
+
+    <select id="backgroundcolorChanger">
+      <option val="">Change background colours</option>
+      <option val="1">White Background</option>
+      <option val="2">Black Background</option>
+      <option val="3">Green Background</option>
+      <option val="4">Red Background</option>
+    </select>
+  </div>
+  <br></br>
+
+  <div class="parkInfos">
+    <div id="contentofParkinfos">
+      <table id="tableforContents">
+        <tr>
+          <td>
+            <img id="locationMap" src="img/locationMap.png" alt="location" </img>
+          </td>
+          <br></br>
+          <td id="hydeparkinfotable">
+            <b>Name:</b> Hyde Park
+            <br></br>
+            <b>Distance:</b> 2miles
+            <br></br>
+            <b>Stations/Bus:</b>
+            <img id="thumbnailsizenheight" src="img/tubeThumbnail.png" alt="tubeStation" </img> Hyde Park Tube Station,
+            <img id="thumbnailsizenheight" src="img/busstopThumbnail.png" alt="busStop" </img> 279, 491
+            <br></br>
+            <br></br>
+
+
+            <div class="gymparkcafe">
+              <b>This park has :</b>
+              <b>Cafe</b>
+              <img id="cafe" src="img/cafe.png" alt="Cafe" </img>
+              <b>and Gym</b>
+              <img id="gym" src="img/gym.png" alt="Gym" </img>
+              <br></br>
+
+              <b>Enjoyable Rating of:</b>
+              <img id="treeRate" src="img/pinetrees.png" alt="parkRating" </img>
+              <img id="treeRate" src="img/pinetrees.png" alt="parkRating" </img>
+              <b>out of 5</b>
+              <img id="treeRate" src="img/pinetrees.png" alt="parkRating" </img>
+              <br></br>
+            </div>
+            <br></br>
+
+            <div class="gymparkcafe2">
+              <tr>
+                <td>
+                  <img id="hydeparkpic1" src="img/hydeparkpic1.jpg" alt="Hyde Park" </img>
+                  <img id="hydeparkpic2" src="img/hydeparkpic2.jpg" alt="Hyde Park" </img>
+                  <br></br>
+                  <b>Share it on your facebook!</b> ---
+                  <img id="thumbnailsizenheight" src="img/socialnetwork.png" alt="Facebook" </img>
+                </td>
+                <td><b>Events at Hyde Park<br></br></b><b>Monday:</b><i><sup>On until 3 Jan 2016</i></sup>
+                  <br></br>Hyde Park Winter Wonderland will be back this November for another Christmas extravaganza.</td>
+              </tr>
+            </div>
+
+    </div>
+    <br></br>
+
+
+</body>
+</html>
